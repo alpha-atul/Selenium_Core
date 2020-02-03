@@ -13,4 +13,5 @@ print("Cookie has been added")
 sleep(2)
 cookie = driver.get_cookie("Atul")
 print(cookie['value'])
+
 driver.quit()
